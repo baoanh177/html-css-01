@@ -12,6 +12,7 @@ html {
 }
 
 .header {
+    display: flex;
     height: 100vh;
     position: relative;
     background-color: #e6f0ff;
@@ -52,10 +53,19 @@ a {
     overflow: hidden;
 }
 /* =========== Navbar ========== */
-.header .navbar {
+
+.navbar {
+    /* padding-top: 38px; */
+    padding: 12px 0;
+    background-color: #e6f0ff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .content {
     display: flex;
     align-items: center;
-    padding-top: 38px;
 }
 
 .navbar .nav {
