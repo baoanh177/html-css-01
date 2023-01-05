@@ -11,11 +11,12 @@ html {
     font-size: 62.5%;
 }
 
-.header {
-    display: flex;
-    height: 100vh;
-    position: relative;
-    background-color: #e6f0ff;
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
 }
 
 .btn {
@@ -55,12 +56,9 @@ a {
 /* =========== Navbar ========== */
 
 .navbar {
-    /* padding-top: 38px; */
     padding: 12px 0;
-    background-color: #e6f0ff;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 .navbar .content {
@@ -101,6 +99,14 @@ a {
 /* =========== Hero =========== */
 .hero {
     margin-top: 130px;
+}
+
+.hero-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #e6f0ff;
+    height: 100vh;
 }
 
 .hero .info {
