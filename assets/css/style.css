@@ -641,16 +641,14 @@ a {
 
 /* ========== Actions =========== */
 .navbar .nav li a:hover {
-    color: violet;
+    opacity: 0.8;
 }
 
 .btn:hover {
     transition: 0.55s;
     opacity: 0.8;
-    background-color: violet;
-    color: green;
 }
 
 .navbar .actions-link:hover {
-    color: violet;
+    opacity: 0.8;
 }
